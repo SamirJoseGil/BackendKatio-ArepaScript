@@ -1,4 +1,4 @@
-package main.java.edu.eafit.katio.models;
+package edu.eafit.katio.models;
 
 public class Usuario{
     
