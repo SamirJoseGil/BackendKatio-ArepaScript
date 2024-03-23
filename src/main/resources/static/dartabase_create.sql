@@ -43,7 +43,7 @@ CREATE TABLE Books
 );
 
 INSERT INTO Authors (Name, Lastname, Country, Birthdate)
-    VALUES ('Gabriel', 'García Márquez', 'Colombia', '1940-03-03');
+    VALUES ("0" 'Gabriel', 'García Márquez', 'Colombia', '1940-03-03');
     
 
 INSERT INTO Authors
@@ -51,4 +51,4 @@ INSERT INTO Authors
 
 
 INSERT INTO Authors
-    VALUES ('Germán', 'Castro-Caycedo', 'Colombia', '1940-03-03');
+    VALUES ('0',	 'Germán', 'Castro-Caycedo', 'Colombia', '1940-03-03');
