@@ -41,14 +41,3 @@ CREATE TABLE Books
         ON DELETE CASCADE
         ON UPDATE RESTRICT
 );
-
-INSERT INTO Authors (Name, Lastname, Country, Birthdate)
-    VALUES ("0" 'Gabriel', 'García Márquez', 'Colombia', '1940-03-03');
-    
-
-INSERT INTO Authors
-    SET Name = 'Jorge', Lastname = 'Isaacs', Country = 'Colombia', Birthdate = '1836-04-01' 
-
-
-INSERT INTO Authors
-    VALUES ('0',	 'Germán', 'Castro-Caycedo', 'Colombia', '1940-03-03');
