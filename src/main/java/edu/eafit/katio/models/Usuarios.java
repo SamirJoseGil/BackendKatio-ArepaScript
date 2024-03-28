@@ -39,9 +39,6 @@ public class Usuarios{
         
         Nombre = nombre;
     }
-   
-
-
     public String getPassword() {
         return Password;
     }
